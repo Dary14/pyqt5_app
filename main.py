@@ -1,16 +1,35 @@
-# This is a sample Python script.
+print("Welcome to my Game!")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+name = input("Please enter your name: ")
+
+playing = input("Do you want to play? ")
+
+if playing != "no":
+    print("Let's start the game", name + "!")
+
+answer = input("What is CPU stands for? ")
+if answer == "central processing unit":
+    print("Correct!")
+else:
+    print("Incorrect!")
+
+answer = input("What is RAM stands for? ")
+if answer == "random access memory":
+    print("Correct!")
+else:
+    print("Incorrect!")
+
+answer = input("What is GPU stands for? ")
+if answer == "graphic processing unit":
+    print("Correct!")
+else:
+    print("Incorrect!")
+
+print()
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#PyQt5 əlavə et bura
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
